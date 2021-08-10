@@ -180,7 +180,7 @@ function installRouterPrefetch(app, ref) {
       }
     },
 
-    beforeDestroy: function beforeDestroy() {
+    beforeUnmount: function beforeUnmount() {
       this.unobserve();
     },
 
